@@ -1,8 +1,6 @@
 # PCA-EXP-6-MATRIX-TRANSPOSITION-USING-SHARED-MEMORY-AY-23-24
-<h3>AIM:</h3>
 <h3>NAME: Hariharan S</h3>
 <h3>REGISTER NO: 2305001009</h3>
-<h3>DATE</h3>
 <h1> <align=center> MATRIX TRANSPOSITION USING SHARED MEMORY </h3>
   Implement Matrix transposition using GPU Shared memory.</h3>
 

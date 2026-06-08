@@ -399,4 +399,4 @@ CHECK(cudaMemset(d_C, 0, nBytes));
 
 
 ## RESULT:
-Thus the program has been executed by using CUDA to transpose a matrix. It is observed that there are variations shared memory and global memory implementation. The elapsed times are recorded as _______________.
+Thus, the program has been executed by using CUDA to transpose a matrix. It is observed that there are variations in shared memory and global memory implementations. The elapsed times are recorded as 3.040 μs (setColReadCol), 2.816 μs (setRowReadRow), 2.752 μs (setRowReadCol, setColReadCol2, setRowReadColDyn), 2.656 μs (setRowReadColDynPad), and 2.624 μs (setRowReadColPad). The padded shared memory implementation achieved the best performance by reducing bank conflicts.
